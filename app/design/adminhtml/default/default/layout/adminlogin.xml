@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<layout>
+	<adminhtml_index_login>
+	    <block type="core/text_list" name="root" output="toHtml">
+	        <block type="adminhtml/template" name="content" >
+	        	<action method="setTemplate">
+	        		 <template>login.phtml</template>
+            	</action> 
+	        	<action method="setTemplate" ifconfig="adminlogin/adminloginconfig/adminlogin_status">
+	        		 <template>adminlogin/customlogin.phtml</template>
+            	</action>            	
+	            <block type="core/text_list" name="form.additional.info" />
+	        </block>
+	    </block>
+	</adminhtml_index_login>
+	<adminhtml_index_forgotpassword>
+		<block type="core/text_list" name="root" output="toHtml">
+			 <block type="adminhtml/template" name="content">
+			 	<action method="setTemplate">
+	        		 <template>forgotpassword.phtml</template>
+            	</action> 
+	        	<action method="setTemplate" ifconfig="adminlogin/adminloginconfig/adminlogin_status">
+	        		 <template>adminlogin/forgotpassword.phtml</template>
+            	</action>
+			   <block type="core/text_list" name="form.additional.info" />
+			</block>
+		</block>
+	</adminhtml_index_forgotpassword>
+</layout>

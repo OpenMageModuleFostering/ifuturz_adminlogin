@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ifuturz_Adminlogin</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>We are introducing a new extension &#x201C;Admin Login Layout&#x201D; which can change your admin login layout in just seconds. Yes. With no more coding required</summary>
+    <description>We are introducing a new extension &#x201C;Admin Login Layout&#x201D; which can change your admin login layout in just seconds. Yes. With no more coding required. &#xD;
+&#xD;
+Moreover, this extension will help the non-technical users to change the layout of admin login easily without any coding. Installing this extension is as easy as pie. &#xD;
+Features&#xD;
+&#xD;
+1)	Change your login layout in seconds!&#xD;
+This extension will let you change the login layout of your admin panel.&#xD;
+By default, Magento provides its default look and feel; there is no default feature to modify the admin login layout in Magento.&#xD;
+&#xD;
+2)	This extension facilitates to change the following :&#xD;
+o	Default tile of admin login&#xD;
+o	Change the default title of forgot password&#xD;
+o	Company logo&#xD;
+o	Background image&#xD;
+o	Copyright text and also the admin can apply his own CSS to the admin login page.&#xD;
+&#xD;
+3)	You just need to upload the recommended logo image size and background image size given in the admin.&#xD;
+&#xD;
+4)	Facility to add your own custom CSS to change the place of logo, text, font-size, width etc.&#xD;
+&#xD;
+5)	Admin can also disable this extension by selecting &#x201C;Disable&#x201D; from Enable Module.&#xD;
+</description>
+    <notes>This is first stable version.</notes>
+    <authors><author><name>Iverve</name><user>iverve</user><email>extension.geek@ifuturz.com</email></author></authors>
+    <date>2015-01-26</date>
+    <time>11:42:02</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="futurz_Adminlogin.xml" hash=""/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Adminlogin"><dir name="Helper"><file name="Data.php" hash="e973a09bcc985b90d9dfb28f2a669b7b"/></dir><dir name="Model"><file name="Observer.php" hash="74ce9e9433d9789862b808ec118b1e9b"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="b2ff250273d8557e49166f59cd1bf2c0"/></dir></dir><dir name="etc"><file name="config.xml" hash="335489fc5e00315f9bff9e3ea4a61867"/><file name="system.xml" hash="35af2b39b15e207fae92d3fa003b9690"/></dir><dir name="sql"><dir name="adminlogin_setup"><file name="mysql4-install-0.1.0.php" hash="aa005c7a1649ff176b7103b58980a9c8"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="adminlogin.xml" hash="89abe2457878bef1c6eba6c463e2e674"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
