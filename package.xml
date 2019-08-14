@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Ifuturz_Adminlogin</name>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -31,9 +31,9 @@ o	Copyright text and also the admin can apply his own CSS to the admin login pag
 </description>
     <notes>This is first stable version.</notes>
     <authors><author><name>Iverve</name><user>iverve</user><email>extension.geek@ifuturz.com</email></author></authors>
-    <date>2015-01-26</date>
-    <time>11:42:02</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="futurz_Adminlogin.xml" hash=""/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Adminlogin"><dir name="Helper"><file name="Data.php" hash="e973a09bcc985b90d9dfb28f2a669b7b"/></dir><dir name="Model"><file name="Observer.php" hash="74ce9e9433d9789862b808ec118b1e9b"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="b2ff250273d8557e49166f59cd1bf2c0"/></dir></dir><dir name="etc"><file name="config.xml" hash="335489fc5e00315f9bff9e3ea4a61867"/><file name="system.xml" hash="35af2b39b15e207fae92d3fa003b9690"/></dir><dir name="sql"><dir name="adminlogin_setup"><file name="mysql4-install-0.1.0.php" hash="aa005c7a1649ff176b7103b58980a9c8"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="adminlogin.xml" hash="89abe2457878bef1c6eba6c463e2e674"/></dir></dir></dir></dir></target></contents>
+    <date>2015-01-28</date>
+    <time>11:39:22</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Ifuturz_Adminlogin.xml" hash="ef40ba857eb99cb4060d8718e3b272a7"/></dir></target><target name="magelocal"><dir name="Ifuturz"><dir name="Adminlogin"><dir name="Helper"><file name="Data.php" hash="e973a09bcc985b90d9dfb28f2a669b7b"/></dir><dir name="Model"><file name="Observer.php" hash="74ce9e9433d9789862b808ec118b1e9b"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="b2ff250273d8557e49166f59cd1bf2c0"/></dir></dir><dir name="etc"><file name="config.xml" hash="335489fc5e00315f9bff9e3ea4a61867"/><file name="system.xml" hash="35af2b39b15e207fae92d3fa003b9690"/></dir><dir name="sql"><dir name="adminlogin_setup"><file name="mysql4-install-0.1.0.php" hash="aa005c7a1649ff176b7103b58980a9c8"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="adminlogin.xml" hash="89abe2457878bef1c6eba6c463e2e674"/></dir><dir name="template"><dir name="adminlogin"><file name="customlogin.phtml" hash="2aa53a3c72dabbe4830db295c44f0f28"/><file name="forgotpassword.phtml" hash="3d6607a19ada7107d73c321336e49fe3"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

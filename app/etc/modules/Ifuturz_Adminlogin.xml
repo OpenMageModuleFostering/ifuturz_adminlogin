@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--/**
+ * @package Ifuturz_Adminlogin
+ */-->
+<config>
+    <modules>
+        <Ifuturz_Adminlogin>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ifuturz_Adminlogin>
+    </modules>
+</config>
