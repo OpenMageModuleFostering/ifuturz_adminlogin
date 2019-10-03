@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Ifuturz_Adminlogin",
+    "name": "openmage-module-fostering\/ifuturz_adminlogin",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "We are introducing a new extension \u201cAdmin Login Layout\u201d which can change your admin login layout in just seconds. Yes. With no more coding required",
     "authors": [
